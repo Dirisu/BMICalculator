@@ -134,8 +134,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bmiResult" destination="8CK-fb-ueP" id="yu4-UW-npq"/>
                         <outlet property="heightLabel" destination="s13-qB-Z0U" id="IOw-Sy-c4S"/>
+                        <outlet property="heightSlider" destination="7JI-Ub-QXs" id="Qh0-7B-u6A"/>
                         <outlet property="weightLabel" destination="6fZ-Pr-NmJ" id="uWE-Sa-hqb"/>
+                        <outlet property="weightSlider" destination="j2i-d8-Va8" id="BVp-pW-Bo7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
